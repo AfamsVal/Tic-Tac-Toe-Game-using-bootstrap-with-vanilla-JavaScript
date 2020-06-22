@@ -1,0 +1,123 @@
+body {
+  background-color: darkgray;
+  /* -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; */
+}
+.lists {
+  margin-top: 140px;
+}
+
+.box-right {
+  height: 100px;
+  line-height: 80px;
+  border-right: 5px solid #990000;
+  border-bottom: 5px solid #990000;
+  text-align: center;
+  font-size: 80px;
+}
+.box-right:hover {
+  height: 100px;
+  line-height: 80px;
+  border-right: 5px solid #990000;
+  border-bottom: 5px solid #990000;
+  text-align: center;
+  font-size: 80px;
+  background-color: silver;
+  cursor: pointer;
+}
+.box-right:active {
+  height: 100px;
+  line-height: 80px;
+  border-right: 5px solid #990000;
+  border-bottom: 5px solid #990000;
+  text-align: center;
+  font-size: 80px;
+  background-color: darkgray;
+  cursor: pointer;
+}
+.box-bottom {
+  height: 100px;
+  border-bottom: 5px solid #990000;
+  line-height: 80px;
+  text-align: center;
+  font-size: 80px;
+}
+.box-bottom:hover {
+  height: 100px;
+  border-bottom: 5px solid #990000;
+  line-height: 80px;
+  text-align: center;
+  font-size: 80px;
+  background-color: silver;
+  cursor: pointer;
+}
+.box-bottom:active {
+  height: 100px;
+  border-bottom: 5px solid #990000;
+  line-height: 80px;
+  text-align: center;
+  font-size: 80px;
+  background-color: darkgray;
+  cursor: pointer;
+}
+.box-top {
+  height: 100px;
+  border-right: 5px solid #990000;
+  line-height: 80px;
+  text-align: center;
+  font-size: 80px;
+}
+.box-top:hover {
+  height: 100px;
+  border-right: 5px solid #990000;
+  line-height: 80px;
+  text-align: center;
+  background-color: silver;
+  font-size: 80px;
+  cursor: pointer;
+}
+.box-top:active {
+  height: 100px;
+  border-right: 5px solid #990000;
+  line-height: 80px;
+  text-align: center;
+  background-color: darkgray;
+  font-size: 80px;
+  cursor: pointer;
+}
+.box {
+  height: 100px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.box:hover {
+  height: 100px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 80px;
+  background-color: silver;
+  cursor: pointer;
+}
+
+.box:active {
+  height: 100px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 80px;
+  background-color: darkgray;
+  cursor: pointer;
+}
+
+.winner {
+  color: green;
+}
+
+.button {
+  display: block;
+}

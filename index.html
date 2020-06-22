@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar my_nav navbar-expand-lg bg-warning fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand font-weight-bold text-dark"
+          style="font-size: 24px;"
+          href="#"
+        >
+          <img src="images/t.png" width="50" alt="Logo" />
+          <strong style="color: #990000;">Tic Tac Toe Game</strong></a
+        >
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row lists pt-2">
+        <div
+          class="col-8 offset-2 col-sm-6 offset-sm-3 col-md-4 offset-md-4 col-lg-4 offset-lg-4 mb-2 list"
+        >
+          <p id="btn" style="display: none;">
+            <button
+              onClick="window.location.reload()"
+              class="btn btn-lg btn-block btn-warning"
+            >
+              Play Again
+            </button>
+          </p>
+          <div class="row">
+            <div class="col-4 box-right"></div>
+            <div class="col-4 box-right"></div>
+            <div class="col-4 box-bottom"></div>
+            <div class="col-4 box-right"></div>
+            <div class="col-4 box-right"></div>
+            <div class="col-4 box-bottom"></div>
+            <div class="col-4 box-top"></div>
+            <div class="col-4 box-top"></div>
+            <div class="col-4 box"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
